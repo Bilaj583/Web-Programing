@@ -1,0 +1,19 @@
+.box{
+    border: 2px solid black;
+    width: 5%;
+    height: 40px;
+    width: 4%;
+    text-align: center;
+    padding-top: 20px; 
+    background-color: aqua;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.flex-container{
+    display: flex;
+      justify-content: center;
+     align-items: center;   
+    flex-flow: row wrap;
+    
+}

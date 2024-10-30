@@ -1,0 +1,47 @@
+/* .box{
+    border: 2px solid;
+    
+    padding: 2px;
+    margin: 4px;
+} */
+
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    /* flex-direction: row; */
+    flex-direction: column; 
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    gap: 20px;
+    
+   
+    
+}
+.box1{
+     height: 20vh;
+
+      /* width: 42vw;  */
+    
+    background-color: red;
+}
+.box2{
+    height: 70vh; 
+    /* width: 70vw; */
+    
+     background-color: green; 
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    /* if row then our concern with widht if coloum then our concern is height */
+}
+.box2-1{
+     /* height: 30vh;  */
+     width: 30vw; 
+    background-color: blue;
+}
+.box2-2{
+     /* height: 70vh;  */
+     width: 70vw; 
+    background-color: yellow;
+}

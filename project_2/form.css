@@ -1,0 +1,9 @@
+body{
+    background-image: url(es.png);
+    color: rgb(27, 77, 27);
+    background-repeat: none; 
+     
+     background-attachment: fixed;
+     background-size: 100% 100%;
+    
+}

@@ -1,0 +1,30 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    /* for ancher tag underline remove */
+    text-decoration: none;
+    color: black;
+}
+li{
+    /* for remove dotes */
+    list-style: none;
+     display: inline;
+    
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}

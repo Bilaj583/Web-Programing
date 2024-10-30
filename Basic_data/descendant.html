@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* descendant sibling */
+        /* #blog >h1{
+            color: blue;
+        } */
+         /* general sibling */
+       /* #blog h1 ~ p {
+            color: red;
+        } */
+         /* adjuscent sibling */
+        #blog h1 + p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="blog">
+        <h1>latest news</h1>
+        <div>
+            <h1>weather forecast</h1>
+            <p>the weather will be sunny</p>
+            <p>tomorrow will br rainy</p>
+        </div>
+    </div>
+</body>
+</html>

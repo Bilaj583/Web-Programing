@@ -1,0 +1,63 @@
+.box{
+     /* border: 1px solid;  */
+    
+    /* padding: 2px;
+    margin: 4px; */
+    /* width: 100px;
+    height: 200px; */
+}
+
+.flex-container{
+     display: flex;
+     background-color: grey;
+     height: 20vh; 
+      width: 100vw;  
+     flex-direction: row; 
+    
+    /* justify-content: start;
+    align-items: start; */
+    /* for the combination of flex direction and flex wrap */
+    /* flex-flow: row wrap ; */
+    /* this is use for gap between the content  */
+     gap: 20px; 
+    
+    /* flex wrap use for adjust in lower space */
+    flex-wrap: wrap; 
+    
+    /* this is use for alignment of the content this is the nine properties of this tag */
+    /* justify-content: start;
+    align-items: end; */
+    /* space evenly */
+     /* justify-content: space-evenly;
+    align-items: start;  */
+    /* justify-content: center;
+    align-items: end; */
+    
+}
+.box1{
+    background-color: red;
+    flex: 1 1 100px;
+    
+}
+.box2{
+    background-color: blue;
+    flex: 1 0 100px;
+    
+}
+.box3{
+    background-color: green;
+    /* height: 300px; */
+    /* align-self: normal; */
+    /* align-self: first baseline; */
+    flex: 1 0 auto;
+}
+.box4{
+    background-color: yellow;
+    /* height: 300px; */
+    flex: 1 0 auto;
+}
+.box5{
+    background-color: orange;
+    /* height: 300px; */
+    flex: 2 0 auto;
+}

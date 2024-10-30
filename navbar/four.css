@@ -1,0 +1,27 @@
+.thirdpage{
+    width: 100%;
+    height: 110vh;
+    background-image:url(/navbar/img/5e.png) ,url(/navbar/img/4e.png);
+    background-size: 80vw 80vh,cover;
+    background-position: center bottom,left top;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.thirdpagetext{
+    text-align: center;
+    
+}
+.thirdpagetextdata{
+    
+    padding-left: 380px;
+    padding-right: 350px;
+    width: 50vw;
+    text-align: center;
+}
+.thirdpagetextdata1{
+    padding-left: 350px;
+    padding-right: 350px;
+    width: 50vw;
+    text-align: center;
+
+}

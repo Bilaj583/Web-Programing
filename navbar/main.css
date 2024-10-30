@@ -1,0 +1,107 @@
+body{
+    background-color: #EBF5F0;
+}
+.firstpage{
+    width: 100%;
+    height: 750px;
+    background: #00BE5F;
+    background-image: url(/navbar/img/e-min.png),url(/easypaisa/img/1e.png);
+    background-size: 5%,100%;
+    background-position: center bottom,left top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.liveeasy{
+    width: 22%;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+.playstore{
+    width: 12%;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+}
+.appstore{
+    width: 13%;
+    height: 60px;
+    position: absolute;
+    top: 420px;
+    left: 470px;
+}
+/* .firstpage{
+    width: auto;
+    height: auto;
+    
+} */
+.firstpagetext {
+    color: white;
+    width: 30%;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top: 220px;
+    left: 250px;
+}
+
+.thirdpage{
+    width: 100%;
+    height: 110vh;
+    background-image:url(/navbar/img/5e.png) ,url(/navbar/img/4e.png);
+    background-size: 80vw 80vh,cover;
+    background-position: center bottom,left top;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.thirdpagetext{
+    text-align: center;
+}
+.thirdpagetextdata{
+    
+    padding-left: 380px;
+    padding-right: 350px;
+    width: 50vw;
+    text-align: center;
+}
+.thirdpagetextdata1{
+    padding-left: 350px;
+    padding-right: 350px;
+    width: 50vw;
+    text-align: center;
+
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.text2page{
+    width: 43%;
+    height: 100vh;
+    background-image: url(/easypaisa/img/logoe.png),url(/navbar/img/3e.png);
+    background-size: 180px,40vw 40vh;
+    background-position: left top,right bottom;
+    background-repeat: no-repeat;
+    padding-right: 140px;
+
+}
+.text2page p{
+    font-size: x-large;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondpage{
+    width: 80%;
+    height: 100vh;
+    background-image:url(/navbar/img/2e.webp);
+    background-size: 55vw 100%;
+    background-repeat: no-repeat;
+}

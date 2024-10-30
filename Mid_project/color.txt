@@ -1,0 +1,5 @@
+rgb(233, 235, 242) #333333
+rgb(237, 154, 164) #D0021B
+sign in 24px lato,sansarif
+input 16px same
+forget #337AB7

@@ -1,0 +1,69 @@
+ *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(180, 180, 180);
+    margin: 40px;
+}
+ .box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ .box1{
+    width: 50%;
+    height: 80vh;
+    background-image:url(/Mid_project/Login/5.png),url(/Mid_project/Login/4.png),url(/Mid_project/Login/3.png) ,url(/Mid_project/Login/1.jpg);
+    background-size: auto,auto,auto,cover;
+    background-position:left bottom,left top ,right bottom,left top;
+    background-repeat: no-repeat;
+    
+   
+}
+ .box2{
+    background-color: white;
+    width: 20vw;
+    height: 80vh;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+  input {
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-bottom: 3px solid rgba(250, 49, 83, 0.5);
+    outline: none;
+
+  }
+
+.button{
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(241, 77, 77);
+    color: white;
+    font-size: large;
+}
+
+.box2 a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+#signin{
+    font-size: 25px;
+    
+}
+h2{
+    /* color: red; */
+    font-size: 30px;
+}
+
+
+
+
+
+

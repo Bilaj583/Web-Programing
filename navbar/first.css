@@ -1,0 +1,89 @@
+body{
+    background-color: #EBF5F0;
+}
+.container{
+    display: flex;
+    height: 100px;
+    gap: 250px;
+    background-color: red;
+}
+.box1{
+    width: 55vw;
+    background-color: rgb(245, 150, 150);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: end; */
+    
+}
+.hc-2{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+.logo img{
+    width: 150px;
+}
+.hc-2 a{
+    text-decoration: none;
+    color: black;
+}
+.box2{
+    width: 30vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hc-3 button{
+    height: 40px;
+    width: 13vw;
+    border-radius: 25px;
+    /* background-color: #00BE5F; */
+    background-color: rgb(2, 68, 2);
+    margin-left: 25px;
+    
+    
+    
+}
+.hc-3 a{
+    text-decoration: none;
+    color: white;
+    /* /* font-weight: bolder; */
+    font-size: 15px; 
+    
+}
+.select{
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.header  a:hover{
+    border: 1px solid #00BE5F;
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00BE5F;
+    transition: 0s;
+}
+
+
+
+.box2 .hc-3 button:hover{
+    border: 1px solid  #00BE5F;
+    background:  #00BE5F;
+    height: 40px;
+    width: 13vw;
+    border-radius: 25px;
+    transition: 0.5s;
+}

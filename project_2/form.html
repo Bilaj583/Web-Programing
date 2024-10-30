@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="form.css"> 
+    
+</head>
+<body>
+   
+    <form   action="/project_2/result.html ">
+        <!-- this is use for login pages -->
+         <h2 style="text-align: center;">Registration form</h2>
+         <!-- <img  src="/Basic_data/images.jfif" alt="image"> -->
+         <h4 style="line-height: 1px;">Please enter your details</h4>
+        <input style="border: 2px solid; border-radius: 10px; font-size: large;" type="text" placeholder="xyz" ><b>Enter your Name</b>
+    </br>
+        <input style="border: 2px solid; border-radius: 10px; font-size: large;" type="text" placeholder="xxxxxxxx@gmail.com"><b>Enter your Email</b>
+    </br>
+        <input style="border: 2px solid; border-radius: 10px; font-size: large;" type="password" placeholder="............"><b>Enter strong password</b>
+        <br>
+        <input style="border: 2px solid ; border-radius: 10px; font-size: large; background-color: none;" type="text" placeholder="00000000" ><b>Enter your Sap Id here</b>
+        <br><br>
+        <h4 style="line-height: 1px;">Select your city</h4>
+        <select name="city" id="112" >
+            <option value="Lahore">Lahore</option>
+            <option value="Multan">Multan</option>
+            <option value="Sahiwal">Sahiwal</option>
+            <option value="Shekhupura">Shekhupura</option>
+            <option value="Kasur">Kasur</option>
+        </select>
+        <br><br>
+        <h4 style="line-height: 1px;">Please enter your semester</h4>
+        <!-- this is radio in which we select only one option in which id is use for backend -->
+         <!--  label is use for if we click on the text the box will select -->
+         <label for="101">
+            <input type="radio" value="semester 1" name="class" id="101">semester 1
+
+         </label> 
+         <br>
+         <label for="102">
+            <input type="radio" value="semester 2" name="class" id="102">semester 2
+         </label>
+         <br><br>
+         <h4 style="line-height: 1px;">Please enter your subject</h4>
+         <!-- check box is use for to select more than one option -->
+         <label for="it project">
+            <input type="checkbox" value="it project" name="subject">It project management
+         </label>
+         <br><br>
+         <label for="numerical analysis">
+            <input type="checkbox" value="numerical analysis" name="subject">numerical analysis
+         </label>
+         <br><br>
+         <label for="wed development">
+            <input type="checkbox" value="wed development" name="subject">wed development
+         </label>
+         <br><br>
+         <label for="data structure">
+            <input type="checkbox" value="data structure" name="subject">data structure
+         </label>
+         <br><br>
+         <label for="software enginering">
+            <input type="checkbox" value="software enginering" name="subject">software enginering
+         </label>
+         <br><br><br>
+         
+
+         <textarea name="feedback" id="11" placeholder="please enter your feedback" rows="4"></textarea>
+         <br>
+         <input type="submit" name="submit" id="">
+         <br>
+        <b> <a href="/project_2/iframe.html">if you can't understand how to register then click here</a></b>
+        
+        
+         
+        
+
+    </form>
+</body>
+</html>
