@@ -3,8 +3,9 @@
     margin: 0;
 }
 body{
-    background-color: rgb(180, 180, 180);
+    background-color: #b9b9b9;
     margin: 40px;
+    /* font-family: "lato ", sans-serif; */
 }
  .box{
     display: flex;
@@ -14,7 +15,7 @@ body{
     align-items: center;
 }
  .box1{
-    width: 50%;
+    width: 45%;
     height: 80vh;
     background-image:url(/Mid_project/Login/5.png),url(/Mid_project/Login/4.png),url(/Mid_project/Login/3.png) ,url(/Mid_project/Login/1.jpg);
     background-size: auto,auto,auto,cover;
@@ -25,42 +26,61 @@ body{
 }
  .box2{
     background-color: white;
-    width: 20vw;
+    width: 15vw;
     height: 80vh;
     padding-left: 40px;
     padding-right: 40px;
+
  }
   input {
     width: 100%;
     border: none;
     height: 40px;
+    font-size: 16px;
     border-bottom: 3px solid rgba(250, 49, 83, 0.5);
     outline: none;
 
   }
 
 .button{
-    height: 50px;
-    width: 90%;
+    height: 40px;
+    width: 100%;
     border-radius: 10px;
-    background-color: rgb(241, 77, 77);
+    background-color: #D0021B;
     color: white;
     font-size: large;
+    border: none;
 }
 
-.box2 a{
+.forget{
     text-decoration: none;
-    color: black;
-    font-size: large;
+    color: #337AB7;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
 }
+.text1{
+    padding-top: 10px;
+}
+
 #signin{
-    font-size: 25px;
+    font-size: 24px;
     
 }
 h2{
-    /* color: red; */
+    color: #333333;
     font-size: 30px;
 }
+.text2{
+    padding-top: 20px;
+}
+.Terms{
+    /* padding-top: 10px; */
+    color: #337AB7;
+}
+
 
 
 
