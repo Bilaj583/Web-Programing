@@ -7,12 +7,32 @@
     <link rel="stylesheet" href="four.css">
 </head>
 <body>
-    <div class="thirdpage">
+    <section>
+    <div class="thirdpage reveal">
         <h1 class="thirdpagetext">Welcome to the Pakistan's favorite way to pay</h1>
         <br>
          <h3 class="thirdpagetextdata">easypaisa is more than just money transfer. With the latest easypaisa app you can order your own easypaisa debit card.You can also recharge your phene,pay utility bills,send gifts, win rewards cashback </h3>
         <h3 class="thirdpagetextdata1">and enjoy on partner resturents and shopping</h3> 
        </div>
+       </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll',reveal);
+        function revel(){
+            var reveals = document.querySelectorAll('.reveal')
+            for(var i=0; i<reveals.lenght; i++){
+                var windowheight = window.innerHeight;
+                var revealtop=reveals[i].getBoundingClientRect().top;
+                var revealpoint =150;
+                if(revealtop <windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+
+                }
+                else{
+                    reveals[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
     
 </body>
 </html>
