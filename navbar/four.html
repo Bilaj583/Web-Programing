@@ -15,24 +15,7 @@
         <h3 class="thirdpagetextdata1">and enjoy on partner resturents and shopping</h3> 
        </div>
        </section>
-    <script type="text/javascript">
-        window.addEventListener('scroll',reveal);
-        function revel(){
-            var reveals = document.querySelectorAll('.reveal')
-            for(var i=0; i<reveals.lenght; i++){
-                var windowheight = window.innerHeight;
-                var revealtop=reveals[i].getBoundingClientRect().top;
-                var revealpoint =150;
-                if(revealtop <windowheight - revealpoint){
-                    reveals[i].classList.add('active');
-
-                }
-                else{
-                    reveals[i].classList.remove('active');
-                }
-            }
-        }
-    </script>
+    
     
 </body>
 </html>
