@@ -51,7 +51,7 @@ body{
     width: 13vw;
     border-radius: 25px;
     /* background-color: #00BE5F; */
-    background-color: rgb(2, 68, 2);
+    background-color: rgb(6, 2, 68);
     margin-left: 25px;
     
     
@@ -212,7 +212,6 @@ body{
      height: 100vh;
      margin-top: 5px;
      border-top: 5px solid  rgb(67, 143, 67);
-     border-bottom: 5px solid rgb(67, 143, 67) ;
      border-radius: 5px;
      
 }
