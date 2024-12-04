@@ -85,7 +85,7 @@ nav img{
     background: rgb(2, 223, 2);
     transition: 1s;
 }
-@media(max-widht: 500px)
+@media  (max-widht: 500px)
 {
     .text-box h1{
         font-size: 10px;
