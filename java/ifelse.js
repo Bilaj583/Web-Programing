@@ -23,7 +23,7 @@
 //      default:
 //         console.log("No medal")
 // }
-var age =67;
+let age =67;
 if(age>=65){
     console.log("you get your income from your pension")
 }
