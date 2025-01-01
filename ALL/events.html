@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- this add new but not show in chrome show in console -->
+    <!-- <button onclick="todos.push('new todo');">Press me for new todo</button> -->
+
+     <!-- this is using function and then call it onclick  -->
+     <!-- <button onclick="addtodo()">Press me</button> -->
+
+     <!-- this is for user input todo -->
+      <input id="todo-title" type="text">
+      <button onclick="addtodo()">Add Todo</button>
+    <script>
+         let todos=['Get groceries','Wash car','Make dinner','Do laundry'];
+        todos.push('another todo');
+
+        // forEach is just like for loop written in bottom
+        
+        todos.forEach( function addtodo(todotitle){
+            let element=document.createElement('div');
+            element.innerText=todotitle;
+            document.body.appendChild(element);
+        });
+    
+        // function addtodo(){
+        //     todos.push('new todo');
+        // }
+
+        function addtodo(){
+            let textbox=document.getElementById('todo-title');
+            let title=textbox.value;
+            todos.push(title);
+        }
+        // for new todo list
+      
+
+
+    </script>
+</body>
+</html>

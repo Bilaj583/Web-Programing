@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- this is for user input todo -->
+    <input id="todo-title" type="text">
+    <button onclick="addtodo()">Add Todo</button>
+    <script>
+        let todos=['Get groceries','Wash car','Make dinner','Do laundry'];
+        render();
+        function addtodo(){
+            let textbox=document.getElementById('todo-title');
+            let title=textbox.value;
+            todos.push(title);
+            render();
+        }
+
+
+
+
+        // for use function multiple times make another function and call it
+         function render(){
+        todos.forEach( function addtodo(todotitle){
+            let element=document.createElement('div');
+            element.innerText=todotitle;
+            document.body.appendChild(element);
+        });}
+
+        // to resolve the issue of repetation
+    </script>
+</body>
+</html>

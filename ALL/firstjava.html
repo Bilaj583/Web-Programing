@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Press me</button>
+    <!-- <div>Get groceries</div>
+    <div>Wash car</div>
+    <div>Make dinner</div> -->
+    <script>
+
+        // Declare all elements seperately
+        // let todo1='Get groceries';
+        // let todo2='Wash car';
+        // let todo3='Make dinner';
+        // let todo4='Do laundry';
+
+        // this is the array list of multiple elements
+        let todos=['Get groceries','Wash car','Make dinner','Do laundry'];
+        todos.push('another todo');
+
+        // forEach is just like for loop written in bottom
+        todos.forEach( function addtodo(todotitle){
+            let element=document.createElement('div');
+            element.innerText=todotitle;
+            document.body.appendChild(element);
+        });
+
+
+
+        // this is the loop for using the output of array list
+        // for (let i=0; i<todos.length; i++){
+        //     addtodo(todos[i]);
+        // }
+
+        // this is the function call for single element output
+        // addtodo(todo1);
+        // addtodo(todo2);
+        // addtodo(todo3);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // this is without function indvidually write the element 
+        // let element=document.createElement('div');
+        // element.innerText=todo1;
+        // document.body.appendChild(element);
+        //  element=document.createElement('div');
+        // element.innerText=todo2;
+        // document.body.appendChild(element);
+        //  element=document.createElement('div');
+        // element.innerText=todo3;
+        // document.body.appendChild(element);
+    </script>
+</body>
+</html>
