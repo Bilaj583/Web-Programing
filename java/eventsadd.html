@@ -8,8 +8,9 @@
 <body>
     <!-- this is for user input todo -->
     <input id="todo-title" type="text">
+    
     <button onclick="addtodo()">Add Todo</button>
-    <div id="todo-list"></div>
+
     <script>
         let todos=['Get groceries','Wash car','Make dinner','Do laundry'];
         render();
@@ -19,21 +20,19 @@
             todos.push(title);
             render();
         }
-        
-        // to resolve the issue of repetation
+
+
+
+
         // for use function multiple times make another function and call it
          function render(){
-            // reset our list it means our list is empty
-            document.getElementById('todo-list').innerHTML='';
         todos.forEach( function addtodo(todotitle){
             let element=document.createElement('div');
             element.innerText=todotitle;
-            let todolist=document.getElementById('todo-list');
-            todolist.appendChild(element);
-        
+            document.body.appendChild(element);
         });}
 
-        
+        // to resolve the issue of repetation
     </script>
 </body>
 </html>
